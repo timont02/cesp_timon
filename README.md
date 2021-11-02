@@ -61,11 +61,11 @@ test/test1.asm - test9.asm # 9 unit tests for featureA
 Screenshot that shows succedded (unit) tests 
 
 
-Einkaufen gehen
+1. Einkaufen gehen
     - Kartoffeln
     - Zwiebeln
-Kochen
+2. Kochen
 	1. Schnippeln
 	2. Braten
-Genießen
+3. Genießen
 
