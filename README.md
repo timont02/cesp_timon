@@ -1,9 +1,8 @@
 # TicTacToe
 
 The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
-The game can be played by one player (human against a bot) or two players (human against human). <br>
-Both players can occupy on field per round. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a collumn or a diagonal.<br>
-For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars"
+The user interface is a gamfield, which exists of 9 fields. To win the game, one player must own 3 fiels in a row, a collumn or a diagonal. <br>
+
 
 ## Authors
 
@@ -18,7 +17,10 @@ Replace -h3eH4ubuno in the this .md by your YT video
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
+The game can be played by one player (human against a bot) or two players (human against human). <br>
+Both players can occupy on field per round. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a collumn or a diagonal.<br>
+For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars"
 
 
 
