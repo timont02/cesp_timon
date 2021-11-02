@@ -59,3 +59,13 @@ test/test1.asm - test9.asm # 9 unit tests for featureA
 
 ## Test
 Screenshot that shows succedded (unit) tests 
+
+
+1. Einkaufen gehen
+    - Kartoffeln
+    - Zwiebeln
+2. Kochen
+	1. Schnippeln
+	2. Braten
+3. Genießen
+
