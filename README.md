@@ -48,13 +48,15 @@ To run the application "tictactoe.asm", you have to use rars with the bitmap dis
     - unittest for the function draw_cross
 7. unittest_draw_circle.asm:
     - unittest for the function draw_circle
+8. unittest_bot_rule_2.asm:
+    - unittest for the function bot_rule_1 and the connected functions
      
      
 All files are stored in the folder "src".
 
 
 ## Test
-Screenshot that shows succedded (unit) tests 
+
 
 
 
