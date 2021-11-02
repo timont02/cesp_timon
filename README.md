@@ -27,25 +27,25 @@ An in-depth paragraph about your project and overview of use.
 To run the application "tictactoe.asm", you have to use rars with the bitmap display and the console
 
 ## Files
-tictactoe.asm:<br>
-    - this file includes all important logic functions of the game, including the multiplayer function and the bot<br>
-draw_gamefield.asm:<br>
-      - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay<br>
-      - function draw_numbers: this function can draw the number for each field on the bitmap dislpay<br>
-      - function draw_pixel1: this function can draw a pixel on the bitmap dislpay<br>
-draw_circle.asm:<br>
-      - this file can draw a circle (symbol of player 1)<br>
-draw_cross.asm:<br>
-      - this file can draw a cross (symbol of player 2)<br>
-      <br>
-unittest_draw_gamefield:<br>
-      - unittest for the functions draw_gamefield and draw_cross<br>
-unittest_win_query:<br>
-      - unittest for the functions win_query, bot_or_not_2, player_2_winner and end_menu<br>
-unittest_draw_cross:<br>
-      - unittest for the function draw_cross<br>
-unittest_draw_circle:<br>
-      - unittest for the function draw_circle<br>
+1. tictactoe.asm:
+    - this file includes all important logic functions of the game, including the multiplayer function and the bot
+2. draw_gamefield.asm:
+    - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay
+    - function draw_numbers: this function can draw the number for each field on the bitmap dislpay
+    - function draw_pixel1: this function can draw a pixel on the bitmap dislpay
+3. draw_circle.asm:
+    - this file can draw a circle (symbol of player 1)
+draw_cross.asm:
+    - this file can draw a cross (symbol of player 2)
+     <br> 
+4. unittest_draw_gamefield:
+    - unittest for the functions draw_gamefield and draw_cross
+5. unittest_win_query:
+    - unittest for the functions win_query, bot_or_not_2, player_2_winner and end_menu
+6. unittest_draw_cross:
+    - unittest for the function draw_cross
+7. unittest_draw_circle.asm:
+    - unittest for the function draw_circle
      
      
 src/main.c   # Main file of program
@@ -61,11 +61,4 @@ test/test1.asm - test9.asm # 9 unit tests for featureA
 Screenshot that shows succedded (unit) tests 
 
 
-1. tictactoe.asm:
-    - this file includes all important logic functions of the game, including the multiplayer function and the bot
-2. draw_gamefield.asm:
-    - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay
-	2. function draw_numbers: this function can draw the number for each field on the bitmap dislpay
-	3. function draw_pixel1: this function can draw a pixel on the bitmap dislpay
-3. Genießen
 
