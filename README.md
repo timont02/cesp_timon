@@ -61,11 +61,11 @@ test/test1.asm - test9.asm # 9 unit tests for featureA
 Screenshot that shows succedded (unit) tests 
 
 
-1. Einkaufen gehen
-    - Kartoffeln
-    - Zwiebeln
-2. Kochen
-	1. Schnippeln
-	2. Braten
+1. tictactoe.asm:
+    - this file includes all important logic functions of the game, including the multiplayer function and the bot
+2. draw_gamefield.asm:
+	1. function draw_gamefield: this function can draw the gamefield on the bitmap dislpay
+	2. function draw_numbers: this function can draw the number for each field on the bitmap dislpay
+	3. function draw_pixel1: this function can draw a pixel on the bitmap dislpay
 3. Genießen
 
