@@ -19,7 +19,7 @@ Replace -h3eH4ubuno in the this .md by your YT video
 
 The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
 The game can be played by one player (human against a bot) or two players (human against human). <br>
-Both players can occupy on field per round. They ptake turns playing. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a column or a diagonal.<br>
+Both players can occupy on field per round. They take turns playing. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a column or a diagonal.<br>
 To run the programm, the user needs "Rars" and the bitmap dislpaly of "Rars". For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars". Text messages, like the menu and the current player are dislpayed at the console of "Rars". <br>
 
 
@@ -50,11 +50,7 @@ To run the application "tictactoe.asm", you have to use rars with the bitmap dis
     - unittest for the function draw_circle
      
      
-src/tictactoe.asm   # Main file of program
-
-src/draw_gamefield.asm # The functions "draw_gamefield", "draw_numbers" and "draw_pixel1", which are called from the "tictactoe.asm" file
-
-test/draw_circle.asm  # 9 unit tests for featureA
+All files are stored in the folder "src".
 
 
 ## Test
