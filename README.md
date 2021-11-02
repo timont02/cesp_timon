@@ -1,7 +1,7 @@
 # TicTacToe
 
 The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
-The user interface is a gamfield, which exists of 9 fields. To win the game, one player must own 3 fiels in a row, a column or a diagonal. <br>
+The user interface is a gamfield, which exists of 9 fields. To win the game, one player must own three fiels in a row, a column or a diagonal. <br>
 
 
 ## Authors
@@ -19,8 +19,9 @@ Replace -h3eH4ubuno in the this .md by your YT video
 
 The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
 The game can be played by one player (human against a bot) or two players (human against human). <br>
-Both players can occupy on field per round. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a column or a diagonal.<br>
-For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars"
+Both players can occupy on field per round. They ptake turns playing. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a column or a diagonal.<br>
+To run the programm, the user needs "Rars" and the bitmap dislpaly of "Rars". For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars". Text messages, like the menu and the current player are dislpayed at the console of "Rars". <br>
+
 
 
 
@@ -35,9 +36,8 @@ To run the application "tictactoe.asm", you have to use rars with the bitmap dis
     - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay
     - function draw_numbers: this function can draw the number for each field on the bitmap dislpay
     - function draw_pixel1: this function can draw a pixel on the bitmap dislpay
-3. draw_circle.asm:
+3. draw_players.asm:
     - this file can draw a circle (symbol of player 1)
-draw_cross.asm:
     - this file can draw a cross (symbol of player 2)
      <br> 
 4. unittest_draw_gamefield:
