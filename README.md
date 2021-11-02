@@ -1,11 +1,14 @@
-# CESP Programming Project Title
+# TicTacToe
 
-Simple overview of use/purpose.
-
+The programm "TicTacToe" is a computer game in RISC-V-Assembly language.
+The game can be played by one player (human against a bot) or two players (human against human). 
+Both players can occupy on field per round. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a collumn or a diagonal.
+For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars"
 
 ## Authors
 
-Contributors names and contact info
+Name: Timon Trautwein
+Email: timon.trautwein@gmx.de
 
 ## Demo Video
 
@@ -21,13 +24,30 @@ An in-depth paragraph about your project and overview of use.
 
 ### How to run
 
-Specify which file need to be used to run your program:
-e.g.
-run my_cool_program.asm in RARS
+To run the application "tictactoe.asm", you have to use rars with the bitmap display and the console
 
 ## Files
-Describe the content of each file of your application: e.g.
-
+tictactoe.asm:
+      - this file includes all important logic functions of the game, including the multiplayer function and the bot
+draw_gamefield.asm:
+      - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay
+      - function draw_numbers: this function can draw the number for each field on the bitmap dislpay
+      - function draw_pixel1: this function can draw a pixel on the bitmap dislpay
+draw_circle.asm:
+      - this file can draw a circle (symbol of player 1)
+draw_cross.asm:
+      - this file can draw a cross (symbol of player 2)
+      
+unittest_draw_gamefield:
+      - unittest for the functions draw_gamefield and draw_cross
+unittest_win_query:
+      - unittest for the functions win_query, bot_or_not_2, player_2_winner and end_menu
+unittest_draw_cross:
+      - unittest for the function draw_cross
+unittest_draw_circle:
+      - unittest for the function draw_circle
+     
+     
 src/main.c   # Main file of program
 
 src/main.asm # compiled version of main.c for RV32IM
