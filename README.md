@@ -7,7 +7,7 @@ For the interaction with the programm, you can use the keyboard and the console 
 
 ## Authors
 
-Name: Timon Trautwein
+Name: Timon Trautwein /n
 Email: timon.trautwein@gmx.de
 
 ## Demo Video
