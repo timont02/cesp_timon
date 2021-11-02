@@ -48,13 +48,11 @@ draw_cross.asm:
     - unittest for the function draw_circle
      
      
-src/main.c   # Main file of program
+src/tictactoe.asm   # Main file of program
 
-src/main.asm # compiled version of main.c for RV32IM
+src/draw_gamefield.asm # The functions "draw_gamefield", "draw_numbers" and "draw_pixel1", which are called from the "tictactoe.asm" file
 
-src/featureA.asm # A specific feature called in main
-
-test/test1.asm - test9.asm # 9 unit tests for featureA
+test/draw_circle.asm  # 9 unit tests for featureA
 
 
 ## Test
