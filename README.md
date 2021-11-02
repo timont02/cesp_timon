@@ -28,7 +28,7 @@ To run the application "tictactoe.asm", you have to use rars with the bitmap dis
 
 ## Files
 tictactoe.asm:<br>
-    this file includes all important logic functions of the game, including the multiplayer function and the bot<br>
+    - this file includes all important logic functions of the game, including the multiplayer function and the bot<br>
 draw_gamefield.asm:<br>
       - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay<br>
       - function draw_numbers: this function can draw the number for each field on the bitmap dislpay<br>
