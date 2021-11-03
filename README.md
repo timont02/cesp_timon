@@ -30,7 +30,7 @@ To run the programm, the user needs "Rars" and the bitmap dislpaly of "Rars". Fo
 To run the application "tictactoe.asm", you have to use rars with the bitmap display and the console
 
 ## Files
-src/tictactoe.asm: <br>
+*src/tictactoe.asm: 
     - this file includes all important logic functions of the game, including the multiplayer function and the bot
 2. draw_gamefield.asm:
     - function draw_gamefield: this function can draw the gamefield on the bitmap dislpay
