@@ -1,1 +1,1 @@
-You can add some more infos about the src files here.
+To run the files, you have to use "Rars" with the console and the bitmap display function. To start the programm, you need to run the file "tictactoe.asm". A more detailed description of the use of the "tictactoe.asm" is in the documentation.
