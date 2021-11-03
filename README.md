@@ -48,17 +48,26 @@ To run the application "tictactoe.asm", you have to use rars with the bitmap dis
     - unittest for the function draw_cross
 7. unittest_draw_circle.asm:
     - unittest for the function draw_circle
-8. unittest_bot_rule_2.asm:
+8. unittest_bot_rule_1.asm:
     - unittest for the function bot_rule_1 and the connected functions
      
      
-src/main.c   # Main file of program
+src/tictactoe.asm   # this file includes all important logic functions of the game, including the multiplayer function and the bot
 
-src/main.asm # compiled version of main.c for RV32IM
+src/draw_gamefield.asm # this field includes the functions for drawing the gamefield and the numbers for each field
 
-src/featureA.asm # A specific feature called in main
+src/draw_players.asm # thie file includes the functions for drawing a circle (player 1) and a cross (player 2)
 
-test/test1.asm - test9.asm # 9 unit tests for featureA
+test/unittest_draw_gamefield.asm  # unittest for the function draw_gamefield
+
+test/unittest_win_query.asm  # unittest for the function win_query
+
+test/unittest_draw_cross.asm  # unittest for the function draw_cross
+
+test/unittest_draw_circle.asm  # unittest for the function draw_circle
+
+test/unittest_bot_rule_1.asm  # unittest for the function bot_rule_1
+
 
 
 ## Test
