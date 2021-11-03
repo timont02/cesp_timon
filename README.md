@@ -17,17 +17,18 @@ Replace -h3eH4ubuno in the this .md by your YT video
 
 ## Description
 
-The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
+The programm "TicTacToe" is a computer game in RISC-V-Assembly language. It was coded completely in assembly language.<br>
+To run the programm, the user needs "Rars". For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars". Text messages, like the menu and the current player are dislpayed at the console of "Rars". <br>
 The game can be played by one player (human against a bot) or two players (human against human). <br>
 Both players can occupy on field per round. They take turns playing. It is not allowed to occupy a field, which is already used. To win, one player must own three fields in a row, a column or a diagonal.<br>
-To run the programm, the user needs "Rars" and the bitmap dislpaly of "Rars". For the interaction with the programm, you can use the keyboard and the console of "Rars". The gamfield is displayed with the bitmap display function of "Rars". Text messages, like the menu and the current player are dislpayed at the console of "Rars". <br>
+
 
 
 
 
 ### How to run
 
-To run the application "tictactoe.asm", you have to use rars with the bitmap display and the console
+To use the application, you have run the "tictactoe.asm" in rars with the bitmap display and the console.
 
 ## Files
 
