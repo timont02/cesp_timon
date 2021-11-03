@@ -1,4 +1,4 @@
-# TicTacToe
+# Programming Project TicTacToe
 
 The programm "TicTacToe" is a computer game in RISC-V-Assembly language.<br>
 The user interface is a gamfield, which exists of 9 fields. To win the game, one player must own three fiels in a row, a column or a diagonal. <br>
