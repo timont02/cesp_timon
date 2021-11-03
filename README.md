@@ -54,7 +54,7 @@ test/unittest_bot_rule_1.asm  # unittest for the function bot_rule_1
 
 ## Test
 
-1. nittest draw_cross
+1. Unittest draw_cross
 
 
 ![unittest_draw_cross](https://user-images.githubusercontent.com/83597101/140091173-39c16860-763f-4c1e-82c5-ffcc68639456.png)
