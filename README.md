@@ -55,5 +55,8 @@ test/unittest_bot_rule_1.asm  # unittest for the function bot_rule_1
 ## Test
 
 
-
-
+![unittest_draw_cross](https://user-images.githubusercontent.com/83597101/140091173-39c16860-763f-4c1e-82c5-ffcc68639456.png)
+![unittest_draw_gamefield](https://user-images.githubusercontent.com/83597101/140091176-e3e4edd0-d17d-4ea7-aa8e-290d7b9337d4.png)
+![unittest_win_query](https://user-images.githubusercontent.com/83597101/140091179-6f367266-e3d1-4130-9bf6-10934abe64cc.png)
+![unittest_bot_rule_1](https://user-images.githubusercontent.com/83597101/140091182-a490cccb-fe26-4366-868a-9250db290770.png)
+![unittest_draw_circle](https://user-images.githubusercontent.com/83597101/140091185-5f6f52c9-d18b-4f1a-a60d-3b503caa29a1.png)
