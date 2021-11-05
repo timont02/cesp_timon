@@ -55,6 +55,10 @@ test/unittest_bot_rule_1.asm  # unittest for the function bot_rule_1
 
 ## Test
 
+All testfiles are written in assembly.
+
+To use them, you have to run them in "Rars". To proof the output, you have to use the bitmap display function an the console. At the top of each file, there is the input from the file and the expected output.
+
 1. Unittest draw_cross
 
 
