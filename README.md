@@ -12,9 +12,8 @@ Email: timon.trautwein@gmx.de
 
 ## Demo Video
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/-h3eH4ubuno/0.jpg)](http://www.youtube.com/watch?v=-h3eH4ubuno "Video Title")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/https://youtu.be/prdTik1YkzU/0.jpg)](http://www.youtube.com/watch?v=-h3eH4ubuno "Video Title")
 
-Replace -h3eH4ubuno in the this .md by your YT video
 
 ## Description
 
